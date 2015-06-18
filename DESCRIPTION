@@ -8,7 +8,7 @@ Authors@R: person(
              role = c("aut", "cre"),
              email = "vjuutilainen@gmail.com")
 Maintainer: Ville Juutilainen <vjuutilainen@gmail.com>
-Description: Store data from FMI (Finnish Meteorological Institute) stored queries.
+Description: Get data from FMI (Finnish Meteorological Institute) stored queries.
 License: BSD
 Imports:
     xml2 (>= 0.1.0)
