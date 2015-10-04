@@ -15,3 +15,14 @@ year <- '2015'
 
 data <- daily_obs(key, fmisid, year)
 ```
+
+Sample output:
+
+```
+    fmisid                name       time  tday  tmin tmax rain snow
+1   100971 Helsinki Kaisaniemi 2015-01-01   3.4   1.9  5.1  0.9    3
+2   100971 Helsinki Kaisaniemi 2015-01-02   4.2   3.7  6.0  3.4   -1
+3   100971 Helsinki Kaisaniemi 2015-01-03   1.8   0.9  4.1  1.5   -1
+4   100971 Helsinki Kaisaniemi 2015-01-04  -1.6  -2.0  1.0  0.1   -1
+5   100971 Helsinki Kaisaniemi 2015-01-05  -8.8 -11.4 -1.1 -1.0   -1
+```
