@@ -10,7 +10,7 @@
 
 daily_obs = function(key, fmisid, year) {
 
-	starttime <- paste(year, '-01-01', sep='')
+  starttime <- paste(year, '-01-01', sep='')
   endtime <- paste(year, '-12-31', sep='')
 
   storedquery_id <- 'fmi::observations::weather::daily::timevaluepair'
