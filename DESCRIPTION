@@ -11,5 +11,6 @@ Maintainer: Ville Juutilainen <vjuutilainen@gmail.com>
 Description: Get data from FMI (Finnish Meteorological Institute) stored queries.
 License: BSD
 Imports:
-    xml2 (>= 0.1.0)
+    xml2 (>= 0.1.2),
+    dplyr (>= 0.4.3)
 URL: https://github.com/vjuutilainen/
